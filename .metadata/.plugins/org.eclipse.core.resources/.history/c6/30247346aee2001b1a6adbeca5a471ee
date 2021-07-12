@@ -1,0 +1,5 @@
+spring.application.name=api-gateway
+spring.cloud.gateway.discovery.locator.enabled=true
+
+#product-Service Ms
+spring.cloud.gateway.routes[0].id=product-service
